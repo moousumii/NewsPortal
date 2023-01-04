@@ -1,0 +1,135 @@
+/*
+    Document   : style
+    Created on : 16-Jul-2010, 22:35:05
+    Author     : Anwar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+html{margin:0;padding:0;}
+body {background:#f7f7f7 url(../images/body_bg.png) repeat-x top;;color:#333;font-family:Verdana,Arial,Geneva,sans-serif;margin:0;padding:0;font-size:10pt;text-align:center;}
+a {text-decoration:none;color:#16AEC5;}
+a:hover {text-decoration:underline;}
+
+textarea{padding:0.4em;}
+
+#header {}
+
+#header .loginInfos {color:#FFFFFF;padding:7px;height:16px;}
+
+
+#body_content{margin:0 auto;width:940px;text-align:left;}
+.content{min-height:350px;background:#ecf5ff url('../images/bg.png') repeat-x;padding:10px;border:1px solid #a6c9e2;-moz-border-radius:6px;-webkit-border-radius:6px;margin:10px 0;}
+.nav_menu{margin-bottom:10px;}
+.form_content{font-size:10pt;background:#ebf7f9;text-align:left;padding:10px;border:1px solid #a6c9e2;;width:850px;margin:0 auto;-moz-border-radius:6px;-webkit-border-radius:6px;margin-bottom:20px;}
+.form_content fieldset {font-weight:bold;}
+.form_content table{width: 100%;}
+.form_content h3{padding:0;;margin:10px 0;font-family:Verdana;font-size:10pt;}
+.form_content table th,.form_content table td{vertical-align:top;padding:2px 5px;}
+.form_content table th{text-align:right;width:150px;font-weight:normal;color:#2E6E9E;}
+.form_content table td span{color:#f00;font-style:italic;display:block;font-size:8pt;}
+.form_content table td label{display:block;margin:2px 0;font-style:italic;}
+.form_content table th .req_mark{color:#f00!important;font-size:7pt!important;}
+.form_content h2{margin:0;padding:0;font-weight:normal;}
+.form_content select{padding:0.4em;}
+
+#tabs{font-size:10pt;}
+
+.grid_area{width:880px; margin:0 auto;}
+.table_content{background:#ebf7f9;border:1px solid #a6c9e2;-moz-border-radius:4px;padding:5px;margin:10px 0;}
+.table_content  table{background:#fff;border:1px solid #bdc5d4;padding:5px;width:100%;-moz-border-radius:4px;}
+.table_content  table td{padding:5px!important;}
+.table_content  table th{padding:5px;}
+.table_content  table a{color:#0000d5;}
+.table_content  table tr.title{background:#6ea7d1 url("../images/title.png") repeat-x scroll 50% 50%;color:#fff;text-transform:capitalize;}
+.table_content  table tr.title th{padding:6px;}
+.table_content  table tr th{text-align:center;}
+.table_content  table tr.odd{background:#E5E5E5;}
+.table_content  table tr.even{background:#D5D5D5;}
+.table_content  table tr.even:hover,.table_content  table tr.odd:hover{background:#fbec88;}
+.table_content  table tr.sub_cat{background:#bdc5d4;}
+.table_content  table tr td.links{text-align:center;}
+.table_content  table tr td.links a{background:#29447E;padding:3px 10px;border:1px solid #60A700;color:#fff;-moz-border-radius:4px;-webkit-border-radius:4px;}
+.table_content  table tr td.links a:hover{background:#60A700 url('../images/pag_bg.gif') repeat-x;border:1px solid #459301;text-decoration:none;}
+.table_content  table tr.hover{background:#CCFFCC;}
+.table_content  table tr td.links a.edit{background:url('../images/edit.png') 0 50% no-repeat;padding-left:17px;}
+.table_content table th.green{background:green;color:#f00;}
+.table_content table th.pink{background:#2cae53;}
+.table_content table th.red{background:red;color:#fff;}
+.table_content table th.yellow{background:yellow;}
+
+.left_menu{list-style:none;margin:0 10px;padding:0;}
+.left_menu li{padding:4px;background:url('../images/arrow.png') 0 4px no-repeat;padding-left:15px;}
+.left_menu li.sel{font-weight:bold;}.left_menu a{text-decoration:none;color:#00f;}
+.left_menu a:hover{text-decoration:underline;color:#C80316;}
+
+
+.login_bg{background:#bdc5d4;width:450px;height:250px;margin:20px auto;border:2px solid #1399E4;-moz-border-radius:10px;-webkit-border-radius:10px;padding:10px;}
+.login_bg .login_box{background:#fff;height:210px;-moz-border-radius-bottomleft:10px;-moz-border-radius-bottomright:10px;-webkit-border-radius:10px;}
+.login_bg .login_box .img{text-align:center;padding:10px 0;}
+.login_bg .login_box table{margin:0 auto;padding:10px;}
+.login_bg table th{text-align:right;width:80px;font-weight:normal;}
+.login_bg .login_box table span{display:block;color:#f00;font-style:italic;}
+.login_bg .login_box table td,.login_bg .login_box table th{padding:2px 5px;vertical-align:top;}
+
+.message {color:#3D3333;margin-bottom:5px;padding:10px;padding-left:50px;display:block;}
+div.error {border:#d99d9d 1px solid;background:url(../images/error.png) no-repeat left center;color:#3D3333;margin-bottom:5px;padding:10px;padding-left:50px;display:block;}
+.success {border:#9bdea8 1px solid;background:url(../images/success.png) no-repeat left center;color:#3D3333;margin-bottom:5px;padding:10px;padding-left:50px;display:block;}
+.notice {border:#e8e657 1px solid;background:url(../images/notice.png) no-repeat left center;}
+
+.view_links{text-align:center;width:100px;}
+.view_links a{width:20px; height:15px;display:inline-block;}
+.view_links a.edit_link{background:url('../images/edit.png') 50% 50% no-repeat;}
+.view_links a.delete_link{background:url('../images/delete.png') 50% 50% no-repeat;}
+.view_links a.status_link{background:url('../images/status.png') 50% 50% no-repeat;}
+.view_links a.install_link{background:url('../images/install.png') 50% 50% no-repeat;}
+.view_links a.receive_link{background:url('../images/receive.png') 50% 50% no-repeat;}
+.view_links a.print_link{background:url('../images/print.png') 50% 50% no-repeat;}
+.view_links a.disabled{background:url('../images/error_icon.png') 50% 50% no-repeat;}
+.view_links a.enabled{background:url('../images/success_icon.png') 50% 50% no-repeat;}
+.first_color{background:#00a987;color:#fff;}
+.second_color{background:#0069af;color:#fff;}
+.third_color{background:#f78f22;color:#fff;}
+.fourth_color{background:#af285c;color:#fff;}
+
+.jstudent_list,.juas_list,.jbook_list{background:#fff;position:absolute;z-index:100;}
+.jstudent_list ul,.juas_list ul,.jbook_list ul{list-style:none;border:1px solid #333;margin:0;padding:0;width:150px;}
+.jstudent_list ul li,.juas_list ul li,.jbook_list ul li{padding:2px 10px;}
+.jstudent_list ul li:hover, .juas_list ul li:hover, .jbook_list ul li:hover{cursor:pointer;background:#3b5998;color:#fff;}
+.jstudent_list ul li:hover a, .juas_list ul li:hover a,.jbook_list ul li:hover a{color:#fff;text-decoration:none;}
+.jstudent_list ul li a, .juas_list ul li a,.jbook_list ul li a{text-decoration:none;color:#000;}
+
+.pagination_links{text-align:center;margin:5px 0;background:#fff;padding:10px 5px;font-family:verdana;font-size:9pt;}
+.pagination_links a{border:1px solid #ddd;background:#FEFFFF;padding:3px 8px;-moz-border-radius:4px;-webkit-border-radius:4px;color:#57A201;}
+.pagination_links strong,.pagination_links a:hover{padding:3px 8px;background:#60A700 url('../images/pag_bg.gif') repeat-x;border:1px solid #459301;-moz-border-radius:4px;-webkit-border-radius:4px;color:#fff;text-decoration:none;}
+input.text {padding: .4em; }
+.width_250{width:250px;}
+.width_200{width:200px;}
+.width_150{width:150px;}
+.width_160{width:160px;}
+.width_80{width:80px;}
+#footer{padding-bottom:10px;}
+
+.dead_color{color:#f00;font-weight: bold;}
+.passport_color{color:#e17009;font-weight: bold;}
+.visa_color{color:#e17009;font-weight: bold;}
+.blue{color:#034591!important;}
+.bold{font-weight:bold;}
+.txt_center{text-align:center;}
+.txt_right{text-align:right;}
+.pad_0_10{padding:0 10px;}
+.block{display:block;}
+.fl_left{float:left;}
+.fl_right{float:right;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+
+/*Added by holy 10-10-2011*/
+
+.front_image{width:800px; height:250px; margin: 0 auto; margin-top:30px}

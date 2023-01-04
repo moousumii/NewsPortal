@@ -1,0 +1,8 @@
+sql : select p.*,m.menu_title from wb_page_image as p
+              join wb_menus as m on m.menu_id=p.menu_id where 1 ORDER BY image_title asc
+sql : select p.*,m.menu_title from wb_page_image as p
+              join wb_menus as m on m.menu_id=p.menu_id where 1 ORDER BY image_title asc
+rows print : Array
+sql : select p.*,m.menu_title from wb_page_image as p
+              join wb_menus as m on m.menu_id=p.menu_id where 1 ORDER BY image_title asc
+rows print : Array
